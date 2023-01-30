@@ -1,6 +1,15 @@
-# PBL1
-I have created CV webpages just by myself using CSS and HTML basics.
+We define a word as a sequence of up to 10 Latin letters, and in a document, each word is separated from its successors by at least 1 non-letter character. Also, for words that do not distinguish between lowercase and uppercase letters.
 
-The CV  has 6 parts which including: Professional Goals, Get in touch!, Work Experience, Academic History, Achievements, Specializations.
+Requirements: Write a program in C language that does the following tasks:
 
-My avatar is on the left corner of the webpage. Get in touch! section is about my personal informations including mobile,email,facebook,linkedIn,github,address. Work Experience section is about my positons and projects ,which I have done and experienced before and how long I have taken them .Achievements section describes my some notable prizes as an ungraduate.Specializations section describes my soft skills and my program skills
+Read file 01 text consisting of lines of maximum length 80 , this text is terminated by an empty line.
+
+ Count and print the frequency (number of occurrences) of words in the text. If the number of different words in the text is more than 100, only the frequency of the first 100 different words appears.
+
+Print out the above frequency table in alphabetical order.
+
+Input: 01 text file consisting of lines of maximum length 80.
+
+Output: 01 file of the above frequency table in alphabetical order
+
+Algorithm: Using a tree data structure
